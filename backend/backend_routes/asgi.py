@@ -1,5 +1,5 @@
 """
-ASGI config for rest_routes project.
+ASGI config for backend_routes project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'rest_routes.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend_routes.settings')
 
 application = get_asgi_application()
