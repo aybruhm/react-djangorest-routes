@@ -14,11 +14,17 @@ section.auth-routes {
 }
 
 div.card {
-  max-width: 50% !important;
+  max-width: 50%;
   margin: auto !important;
 }
 
 div.card > img {
   justify-content:center;
   margin: auto;
+}
+
+@media screen {
+  div.card {
+    max-width: 100% !important;
+  }
 }
