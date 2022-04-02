@@ -18,13 +18,29 @@ div.card {
   margin: auto !important;
 }
 
+div.auth-lists-mobile {
+  display: none;
+}
+
 div.card > img {
   justify-content:center;
   margin: auto;
 }
 
-@media screen {
+button.navbar-toggler {
+  display: none;
+}
+
+@media (max-width: 767px) {
   div.card {
     max-width: 100% !important;
+  }
+
+  span.navbar-brand {
+    font-size: 14px;
+  }
+
+  div.auth-lists {
+    display: none;
   }
 }
