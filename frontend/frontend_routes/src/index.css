@@ -2,3 +2,23 @@ body {
   margin: 0;
   font-family: 'Poppins';
 }
+
+a.btn-link {
+  color: #000 !important;
+}
+
+section.auth-routes {
+  max-width: 90% !important;
+  margin: auto !important;
+  padding-top: 100px;
+}
+
+div.card {
+  max-width: 50% !important;
+  margin: auto !important;
+}
+
+div.card > img {
+  justify-content:center;
+  margin: auto;
+}
