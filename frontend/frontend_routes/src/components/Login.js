@@ -7,7 +7,9 @@ function userLogin() {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <form method="post" className="login-form">
+                        <p className="h2">Login</p>
+
+                        <form method="post" className="login-form card">
 
                             <div className="form-group">
                                 <input className="form-control" type="email" name="email" placeholder="Enter email address"></input>
@@ -18,7 +20,7 @@ function userLogin() {
                             </div>
 
                             <div className="form-group">
-                                <button className="btn btn-primary">Login</button>
+                                <button className="btn btn-primary btn-block" type="submit">Login</button>
                             </div>
                         </form>
                     </div>
