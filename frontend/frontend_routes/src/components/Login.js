@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 
 function userLogin() {
@@ -17,6 +18,14 @@ function userLogin() {
 
                             <div className="form-group">
                                 <input className="form-control" type="password" name="current_password" placeholder="Enter current password"></input>
+                            </div>
+
+                            <div className="form-group forgotten-password">
+                                <span className="text-muted">
+                                    Forgot Password? 
+
+                                    <Link to="/reset-password/" className="pl-3">Reset</Link>
+                                </span>
                             </div>
 
                             <div className="form-group">
