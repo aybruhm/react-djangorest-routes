@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 
 function userRegister() {
@@ -34,6 +35,14 @@ function userRegister() {
 
                             <div className="form-group">
                                 <input className="form-control" type="password" name="password" placeholder="Enter current password"></input>
+                            </div>
+
+                            <div className="form-group forgotten-password">
+                                <span className="text-muted">
+                                    Have an Account? 
+
+                                    <Link to="/login/" className="pl-3">Login</Link>
+                                </span>
                             </div>
 
                             <div className="form-group">
