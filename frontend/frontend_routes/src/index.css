@@ -22,6 +22,30 @@ div.auth-lists-mobile {
   display: none;
 }
 
+form.login-form {
+  max-width: 50%;
+  padding: 20px;
+  margin: auto;
+}
+
+div.form-group {
+  margin-bottom: 16px;
+}
+
+div.form-group input.form-control {
+  height: 40px;
+}
+
+div.form-group button.btn {
+  height: 40px;
+}
+
+p.h2 {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #000;
+}
+
 div.card > img {
   justify-content:center;
   margin: auto;
@@ -32,6 +56,10 @@ button.navbar-toggler {
 }
 
 @media (max-width: 767px) {
+  form.login-form {
+    max-width: 100% !important;
+  }
+
   div.card {
     max-width: 100% !important;
   }
