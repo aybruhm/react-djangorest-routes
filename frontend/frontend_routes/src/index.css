@@ -22,10 +22,15 @@ div.auth-lists-mobile {
   display: none;
 }
 
-form.login-form {
+form.login-form,
+form.register-form {
   max-width: 50%;
   padding: 20px;
   margin: auto;
+}
+
+form.register-form {
+  margin-bottom: 60px;
 }
 
 div.form-group {
