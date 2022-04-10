@@ -7,7 +7,10 @@ function userRegister() {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <form method="post" className="register-form">
+                        
+                        <p className="h2">Register</p>
+
+                        <form method="post" className="register-form card">
 
                             <div className="form-group">
                                 <input className="form-control" type="text" name="first_name" placeholder="Enter firstname"></input>
@@ -34,7 +37,7 @@ function userRegister() {
                             </div>
 
                             <div className="form-group">
-                                <button className="btn btn-primary">Register</button>
+                                <button className="btn btn-primary btn-block" type="submit">Register</button>
                             </div>
                         </form>
                     </div>
