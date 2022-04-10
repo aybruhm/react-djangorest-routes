@@ -51,6 +51,14 @@ p.h2 {
   color: #000;
 }
 
+.forgotten-password {
+  text-align: left;
+}
+
+.forgotten-password a.pl-3 {
+  padding-left: 2px;
+}
+
 div.card > img {
   justify-content:center;
   margin: auto;
