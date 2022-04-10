@@ -23,7 +23,8 @@ div.auth-lists-mobile {
 }
 
 form.login-form,
-form.register-form {
+form.register-form,
+form.reset-password-form {
   max-width: 50%;
   padding: 20px;
   margin: auto;
