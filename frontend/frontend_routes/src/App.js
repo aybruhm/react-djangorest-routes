@@ -3,6 +3,7 @@ import Navbar from './components/layouts/Navbar';
 import Card from './components/layouts/Card';
 import Login from './components/Login';
 import Register from './components/Register';
+import ResetPasswordOTP from './components/ResetPasswordOTP';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
               <Route path="/login/" component={ <Login /> } element={ <Login /> }></Route>
 
               <Route path="/register/" component={ <Register /> } element={ <Register /> }></Route>
+              
+              <Route path="/reset-password/" component={ <ResetPasswordOTP /> } element={ <ResetPasswordOTP /> }></Route>
+
             </Routes>
             
         </div>
