@@ -1,22 +1,29 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
         <nav className="navbar navbar-light bg-light">
             <div className="container">
-                <span className="navbar-brand mb-0 h1">react-djangorest-routes</span>
+                <span className="navbar-brand mb-0 h1">
+                    
+                    <Link to="/" className="btn btn-link px-3 me-2">
+                        react-djangorest-routes
+                    </Link>
+                    
+                </span>
             </div>
 
 
             <div className="auth-lists">
-                <a href="#" className="btn btn-link px-3 me-2">
-                    register
-                </a>
 
-                <a href="#" className="btn btn-link px-3 me-2">
+                <Link to="/register/" className="btn btn-link px-3 me-2">
+                    Register
+                </Link>
+
+                <Link to="/login/" className="btn btn-link px-3 me-2">
                     Login
-                </a>
+                </Link>
             </div>
 
             <button
