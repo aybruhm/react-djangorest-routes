@@ -4,6 +4,8 @@ import Card from './components/layouts/Card';
 import Login from './components/Login';
 import Register from './components/Register';
 import ResetPasswordOTP from './components/ResetPasswordOTP';
+import ResetPasswordConfirmOTP from './components/ResetPasswordConfirmOTP';
+import ConfirmEmailPasswordReset from './components/ConfirmEmailPasswordReset';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -20,6 +22,10 @@ function App() {
               <Route path="/register/" component={ <Register /> } element={ <Register /> }></Route>
               
               <Route path="/reset-password/" component={ <ResetPasswordOTP /> } element={ <ResetPasswordOTP /> }></Route>
+
+              <Route path="/confirm-email-password-reset/" component={ <ConfirmEmailPasswordReset /> } element={ <ConfirmEmailPasswordReset /> }></Route>
+
+              <Route path="/reset-password-confirm/" component={ <ResetPasswordConfirmOTP /> } element={ <ResetPasswordConfirmOTP /> }></Route>
 
             </Routes>
             
